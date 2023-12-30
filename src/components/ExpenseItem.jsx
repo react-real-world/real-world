@@ -8,6 +8,7 @@ const ExpenseItem = ({date, title, amount}) => {
         <h2>{title}</h2>
         <div className="expense-item__price">${amount}</div>
       </div>
+      <div></div>
     </div>
   );
 }
