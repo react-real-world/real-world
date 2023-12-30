@@ -1,0 +1,22 @@
+.profile-image{
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  width: 32px;
+  border-radius: 30px;
+}
+.profile-info{
+  display: flex;
+  align-items: center;
+}
+.profile-nameDate>p{
+  margin: 0 0 0 10px; 
+}
+.profile-name>a{
+  color: #5cb85c;
+  text-decoration: none;
+}
+.profile-name>a:hover{
+  color: #275f27;
+  text-decoration: underline;
+}

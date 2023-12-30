@@ -1,27 +1,67 @@
 .App {
+  width: 100%;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #ffffff;  
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
 }
-
-
 .Nav-header{
   background-color: #ffffff;
   min-height: 2vh;
-  display: flex;
   padding: 0.5rem 1rem;
+  display: flex;
   justify-content: space-around;
 }
 
 .App-header {
   background-color: #5CB85C;
-  min-height: 25vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 2rem;
+  min-height: 19vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-body {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto; 
+}
+.App-body-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 50%; 
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 0;   
+  text-align: left;
+  width: 700px;
+}
 
+.App-body-left-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+
+.App-body-left-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+.aside{
+  
+}
