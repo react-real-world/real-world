@@ -1,29 +1,29 @@
 {
-  "name": "react-world",
+  "name": "real-world",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
   "description": "리액트로 구현하는 리얼 월드 프로젝트",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pagers-org/react-world.git"
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "real-world",
-    "react",
-    "pagers"
-  ],
-  "author": {
-    "name": "InSeong-So",
-    "email": "goflvhxj2547@gmail.com",
-    "url": "https://github.com/inseong-so"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.4"
   },
-  "devEngines": {
-    "node": "16.x || 18.x || 19.x || 20.x"
-  },
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/pagers-org/react-world/issues"
-  },
-  "homepage": "https://github.com/pagers-org/react-world#readme"
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
 }
