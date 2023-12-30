@@ -1,0 +1,14 @@
+.GlobalFeed{
+  display: flex;
+}
+.GlobalFeed>span{
+  padding: 0.5em 1em 5px;;
+  border-bottom: 2px solid #5cb85c;
+}
+.GlobalFeed>span>a{
+  text-decoration: none;
+  color: #5cb85c;
+}
+.GlobalFeed>span>a:hover{
+  cursor: default;
+}
