@@ -1,6 +1,8 @@
 import '../componentCss/profile.css'
 
-const Profile = ({name, date}) => {
+const Profile = ({ name, date }) => {
+  
+
   return (
     <div className="profile-info">
       <img className="profile-image" src={'./public_assets/demo-avatar.png'} alt="profile" />
